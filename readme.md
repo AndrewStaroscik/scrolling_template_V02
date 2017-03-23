@@ -26,9 +26,3 @@ run `npm install`
 
 `npm run build` - generates static resources in the build folder that can be used as sigle page or embeded into a page on a site (such as a post on docpad or jekyll)
 
-
-#Next Steps
-
-* Add a clean step to delete build folder as the first step of the `npm run build` call
-* Add more variables to the `webpack.config.js` file to make it easier to customize the target div id (default mainFrame).
-* Get [webpack-validator working with stylus](http://disq.us/p/19ptmz7)
