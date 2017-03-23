@@ -29,7 +29,7 @@ let txtElements = [
     className: 'sctxt',
     desc: 'intro to cell cycle text',
     order: 2,
-    stepOffset: 300,
+    stepOffset: 450,
     vertPos: 3000,
   },
   {
@@ -59,9 +59,9 @@ let txtElements = [
   {
     id: 't006',
     className: 'sctxt',
-    desc: 'intro to cell cycle text',
+    desc: 'square can go away text',
     order: 6,
-    stepOffset: 300,
+    stepOffset: 500,
     vertPos: 3000,
   }
 ];
@@ -195,7 +195,7 @@ let scrollTxt = {
 
 
       // fade in txt based on scroll position
-      let opAdj = 550; // the number of scroll pos before actual pos for fading in text.
+      let opAdj = 320; // the number of scroll pos before actual pos for fading in text.
       for (let i = 0; i < txtElements.length; i += 1) {
         let el = document.getElementById(txtElements[i].id);
         let elOpacityPosVal = gL.scales.txtFadeIn.opacity((-gL.mainFrameInfo.topPos < txtElements[i].vertPos - opAdj) ? 0 : -gL.mainFrameInfo.topPos - (txtElements[i].vertPos - opAdj));

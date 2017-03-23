@@ -13,13 +13,13 @@ function makeRandDArrays(rngs, dmns, dur, vO, tList) {
     let targetTxtPos = targetTxt.vertPos;
     //console.log(targetTxtPos);
 
-    domainArray.push(targetTxtPos - dur[i] + vO);
-    domainArray.push(targetTxtPos + vO);
+    domainArray.push(targetTxtPos - dur[i] + vO[i]);
+    domainArray.push(targetTxtPos + vO[i]);
 
 
   }
 
-  rangeArray.push(rngs[rngs.length-1] + vO);
+  rangeArray.push(rngs[rngs.length-1]);
   domainArray.push(99999);
 
   return {range: rangeArray, domain: domainArray};
