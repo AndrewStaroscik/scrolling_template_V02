@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Domine');
+
+#mainFrame
+  position relative
+  max-width 700px
+  margin 0em auto
+  //border dashed 2px Goldenrod
+  height 5500px
+  overflow hidden
+  font-size 22px
+  initial-scale 1
+  font-family "Domine",Century,Georgia,serif
+  
+.sctxt // catch all for the scrolling text
+  opacity 0
+  position absolute
+  top 30000
+  left 0 
+  text-align center 
+  
+.cnvs
+  z-index 25
+  position absolute
+  top 30px
+  left 30px
+  
+#scrollDiv
+  position fixed
+  text-align center
+  right 10px
+  top 1000px
+  max-width 80px
+  height 22px
+  padding 5px 10px
+  border 2px solid #565656
+  border-radius 8px
+  background #efefef
+  visibility hidden
+  cursor pointer
+  z-index 25
+  
+#illustration-wrapper 
+  position absolute
+  z-index 20
+
+#fade-div-parent
+  position fixed
+  left 0px
+  top 1000px
+  width 100%
+  z-index 10
+  //border 1px dotted #ff0000
+  
+#fade-div-top 
+  background rgba(255,255,255,1);
+  height 200px
+  width 100%
+  
+#fade-div-fade
+  //background linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)) 
+  background linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0))   
+  height 25px
+  width 100%
+  //border 1px dashed ff0000;
+  
+.txt-div 
+  position absolute
+  padding 0 20px
+  z-index 1
+  opacity 0.4
+  max-width 400px  

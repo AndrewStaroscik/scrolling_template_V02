@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div style='height:500px; border: 1px dotted goldenrod; text-align: center;'>&#215;</div>    
+    <div id='mainFrame' class='mainFrame'>
+      <canvas id='canvas01' class='cnvs' width='400px' height='300px' style='position:absolute;'>No canvas element supported</canvas>
+      
+
+      <!-- set opacity to 0 for making txt invisible until the css and js styling kicks in -->
+      <div class="sctxt" style='opacity: 0;' id="t001">
+        <h2>Scrolling content template</h2>
+        <p>
+          An update of the scrolling template.
+        </p>
+        <p>
+          See readme for changes.
+        </p>
+      </div>
+      <div class="sctxt" style='opacity: 0;' id="t002">
+        
+        <p>
+          This is a square
+        </p>
+      </div>
+      <div class="sctxt" style='opacity: 0;' id="t003"> 
+        <p>
+          It can move over...
+        </p>
+      </div>
+      <div class="sctxt" style='opacity: 0;' id="t004">
+        <p>
+          and back. 
+        </p>
+      </div>
+      <div class="sctxt" style='opacity: 0;' id="t005">
+        <p>
+          Other things can change.
+        </p>
+      </div>
+      <div class="sctxt" style='opacity: 0;' id="t006">
+        <p>
+          And the square can go away when it is no longer needed. 
+        </p>
+      </div>
+    </div>
+    <div style='height:1000px; border: 1px dotted goldenrod; text-align: center;'>&#215;</div>
+  </body>
+</html>
