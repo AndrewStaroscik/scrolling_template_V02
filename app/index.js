@@ -38,7 +38,7 @@ viewResize();
 // on scroll listener... 
 window.addEventListener('scroll', function() {
   updateScroll();
-  console.log(gL.mainFrameInfo.topPos);
+  //console.log(gL.mainFrameInfo.topPos);
   
 });
 

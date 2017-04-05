@@ -31,7 +31,7 @@ populate_gL.initial = function() {
   gL.canvas01.w = gL.canvas01.el.offsetWidth;
   gL.canvas01.h = gL.canvas01.el.offsetHeight;
 
-  console.log(`w: ${gL.canvas01.el.offsetWidth}, h: ${gL.canvas01.el.offsetHeight}`);
+  //console.log(`w: ${gL.canvas01.el.offsetWidth}, h: ${gL.canvas01.el.offsetHeight}`);
 
   scrollPosUpdate()
 
@@ -189,8 +189,8 @@ populate_gL.initial = function() {
       .domain([0, 25, 125, 9999])
   };
 
-  console.log('after populate gL is:')
-  console.log(gL)
+  //console.log('after populate gL is:')
+  //console.log(gL)
 
 }; // end populate_gL.initial method
 

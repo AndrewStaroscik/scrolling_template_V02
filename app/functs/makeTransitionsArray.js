@@ -57,7 +57,7 @@ const makeTransitionsArray = function(els, txtList) {
       })
     }
   }
-  console.log(retArray);
+  //console.log(retArray);
   return retArray;
 
 }
